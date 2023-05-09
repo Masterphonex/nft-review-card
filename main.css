@@ -1,0 +1,124 @@
+html{
+    background:  hsl(217, 54%, 11%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: 200px;
+    margin: 100px auto;
+    background: hsl(216, 50%, 16%);
+    padding: 14px 15px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px hsl(214, 43%, 10%);
+}
+
+.main--img{
+    background-image: url('./images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    text-align: center;
+    /* display: flex; */
+}
+#view--bg{
+background-color:  hsla(178, 100%, 50%, 0.222);
+    height: 200px;
+    border-radius: 12px;
+    display: none;
+}
+
+.view--bg:hover{
+    background-color: hsla(178, 100%, 50%, 0.222);
+
+}
+.icon--view{
+    margin-top: 70px;
+    /* width: 10px; */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 10px;
+}
+
+.text h3{
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text h3:hover{
+    color: hsl(178, 100%, 50%)
+}
+
+.text p{
+    font-size: 11px;
+    color: hsl(215, 51%, 70%);
+}
+
+.text--row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text--row img{
+    width: 10px;
+}
+
+.text--row div{
+    display : flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text--row p{
+    font-size: 11px;
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+.days p{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    width: 100%;
+    border: .3px solid hsl(215, 32%, 27%);
+}
+
+.avatar{
+    display: flex; 
+    gap: 10px;
+}
+
+.avatar img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 200px;
+}
+
+.avatar span {
+    color: white;
+    cursor: pointer;
+}
+
+.avatar span:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
